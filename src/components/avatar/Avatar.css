@@ -1,0 +1,13 @@
+.img-disabled {
+  pointer-events: none;
+  filter: grayscale(100%);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-error {
+  background-color: gray;
+  display: inline-block;
+}

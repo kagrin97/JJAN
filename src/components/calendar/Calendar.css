@@ -1,0 +1,70 @@
+td {
+  width: calc(100% / 7);
+  height: 36px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+thead {
+  margin-bottom: 2rem;
+}
+
+.calendar {
+  width: 100%;
+  height: 35dvh;
+}
+
+.calendarNav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.calendarNav-title {
+  font-weight: 700;
+}
+
+.prevMonth-button {
+  background-color: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.nextMonth-button {
+  background-color: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.prevDay {
+  color: lightgray;
+}
+
+.futureDay {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.prevMonthDay,
+.nextMonthDay {
+  color: lightgray;
+  font-weight: 200;
+}
+
+.futureDay:hover,
+.today:hover {
+  background-color: #5b1fd9;
+  color: #fff;
+  cursor: pointer;
+}
+
+.choiceDay {
+  background-color: #5b1fd9;
+  color: #fff;
+  cursor: pointer;
+}
